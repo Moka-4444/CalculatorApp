@@ -1,42 +1,43 @@
-📱 JavaFX Simple Calculator
-This is a basic calculator application built using JavaFX.
-It features a clean user interface and supports fundamental arithmetic operations like addition, subtraction, multiplication, division, clear, and equals.
-
+✅ JavaFX To-Do List App
+This is a simple and clean To-Do List application built using JavaFX.
+It allows users to add and remove tasks dynamically with a responsive user interface
+______________________________________________________________________________________________________________
 🛠️ About the Project
-The calculator includes:
+This To-Do List app includes:
 
-A display area (non-editable TextField)
-Number buttons from 0 to 9
-Operation buttons: +, -, *, /, C, and =
-Responsive UI with hover and press effects on buttons
-Layout organized using VBox and HBox
-It's a beginner-friendly project showcasing JavaFX UI and event handling.
+📄 A TextField to input tasks
 
+📋 A ListView to display all tasks
+
+➕ "Add Task" button to add a new item
+
+❌ "Delete Selected" button to remove selected task
+
+🎯 Simple and intuitive layout using VBox and HBox
+
+💻 Built with pure JavaFX – no external libraries required
+__________________________________________________________________________________________________________________
 💡 What I Learned
-While building this project, I learned:
+During the development of this project, I learned:
 
-Button arrays for cleaner loops:
+How to use JavaFX layouts like VBox, HBox, and Insets to build clean UIs
 
-Button[] numberButtons = {button1, button2, ..., button0};
-Button[] operation = {buttonPlus, buttonMinus, buttonMultiply, buttonDivide};
-Grouping buttons in arrays made it easier to use loops and avoid repeated code.
+Working with ListView<String> for displaying and managing dynamic lists
 
-Using enhanced for-loops to apply actions and styles to multiple buttons:
+Implementing event handling for buttons (e.g., adding and deleting tasks)
 
-for (Button button : numberButtons) {
-    // Set size, styles, and action handlers
-}
-Implementing core functions like:
+Using ArrayList to store and manage task data internally
 
-+ Addition
-- Subtraction
-* Multiplication
-/ Division
-= Equals (to calculate the result)
-C Clear (to reset everything)
-Styling JavaFX UI with inline CSS and adding interactive effects like hover and pressed states.
-
+Enhancing UI responsiveness and structure with JavaFX components
+__________________________________________________________________________________________________________________
 🚀 Future Improvements
-Add support for decimal numbers
-Add keyboard input support
-Improve error handling (e.g., division by zero)
+✏️ Add support for editing existing tasks
+
+💾 Implement task persistence using local file or database
+
+🎨 Add better CSS styling and animations
+
+⌨️ Enable keyboard shortcuts for quick task entry and deletion
+
+📅 Add task due dates and reminders
+________________________________________________________________________________________________________________
